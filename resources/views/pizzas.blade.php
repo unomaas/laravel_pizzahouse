@@ -4,14 +4,16 @@
 <!-- This is a specific section of content, aptly named 'content'.  This is how we tie it to the yield in the layouts.blade.php file. -->
 @section('content')
 
-<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+<div class="relative items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
   <div>
     <h1>Pizza List</h1>
-
   </div>
 
+  <p>{{$name}}</p>
+  <p>{{$age}}</p>
+
   <div>
-    <table>
+    <table style="margin: 0 auto;">
 
       <tr>
         <th>Index</th>
@@ -37,7 +39,7 @@
         @endif
       </tr>
       @endforeach
-      
+
     </table>
   </div>
 </div>
