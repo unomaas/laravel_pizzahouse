@@ -9,9 +9,6 @@
     <h1>Pizza List</h1>
   </div>
 
-  <p>{{$name}}</p>
-  <p>{{$age}}</p>
-
   <div>
     <table style="margin: 0 auto;">
 
